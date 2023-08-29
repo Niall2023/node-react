@@ -1,0 +1,68 @@
+#title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+.imagen1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; /* Asegura que el contenido ocupe al menos el alto de la ventana */
+  background-color: #f0f0f0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  max-width: 100%;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.animated-bg {
+  width: 800%;
+  height: 600vh;
+  background-color: rgb(211, 39, 16);
+  position: absolute;
+  
+}
+
+@keyframes animateBg {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
